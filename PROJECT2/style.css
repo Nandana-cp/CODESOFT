@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: #1a202c;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  .logo {
+    font-size: 2rem; /* Adjust the font size */
+    font-weight: bold; /* Make it bold */
+    text-transform: uppercase; /* Optional: Make it uppercase */
+    color: white; /* Match the header text color */
+  }
+  
+  .profile-img{
+    width: 300px;
+    height:200px;
+    border-radius: 60%;
+  }
+    
+  
+  .tagline p {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  section {
+    padding: 2rem 0;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .about {
+    text-align: center;
+  }
+  
+  .profile-img {
+    width: 150px;
+    border-radius: 50%;
+    margin: 1rem 0;
+  }
+  
+  .skills ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills li {
+    background: #1f6d91;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  .skills li:hover{
+    background-color: #1a202c;
+    color: aliceblue;
+    transition: background-color 0.3s;
+
+  }
+  .projects .project {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .projects img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: rgb(59, 29, 29);
+    background: #9e2670;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .btn:hover{
+    background-color: chocolate;
+    color: aliceblue;
+    transition: background-color 0.3s;
+  }
+  .contact a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .footer {
+    background: #1a202c;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  
